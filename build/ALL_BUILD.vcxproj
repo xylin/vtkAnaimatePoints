@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{D036EA00-F6C8-418B-BCB5-7BFED6E5BA43}</ProjectGUID>
+    <ProjectGUID>{5479F78C-18DE-4353-AD88-7987FBC5F2F3}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -199,10 +199,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/development/projects/vtkAnaimatePoints/build/DataAnimation.vcxproj">
-      <Project>E352CE13-9607-4738-A084-F2E5382E2E95</Project>
+      <Project>4241CFD6-7DEF-4C83-96B5-526A4CC7395F</Project>
     </ProjectReference>
     <ProjectReference Include="C:/development/projects/vtkAnaimatePoints/build/ZERO_CHECK.vcxproj">
-      <Project>972B88FD-8394-4C51-8711-BC0FF4097C4E</Project>
+      <Project>BFB0E150-FD67-4078-9474-7ACD6C87E0D3</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

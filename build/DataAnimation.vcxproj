@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{E352CE13-9607-4738-A084-F2E5382E2E95}</ProjectGUID>
+    <ProjectGUID>{4241CFD6-7DEF-4C83-96B5-526A4CC7395F}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>DataAnimation</ProjectName>
@@ -49,39 +49,40 @@
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="PropertySheets">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-    <PropertyGroup>
-      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\development\projects\vtkAnaimatePoints\build\Debug\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DataAnimation.dir\Debug\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DataAnimation</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\development\projects\vtkAnaimatePoints\build\Release\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DataAnimation.dir\Release\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DataAnimation</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\development\projects\vtkAnaimatePoints\build\MinSizeRel\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DataAnimation.dir\MinSizeRel\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DataAnimation</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\development\projects\vtkAnaimatePoints\build\RelWithDebInfo\</OutDir>
-      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DataAnimation.dir\RelWithDebInfo\</IntDir>
-      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DataAnimation</TargetName>
-      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
-      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
-      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
-    </PropertyGroup>
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\development\projects\vtkAnaimatePoints\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DataAnimation.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">DataAnimation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\development\projects\vtkAnaimatePoints\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DataAnimation.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">DataAnimation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\development\projects\vtkAnaimatePoints\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DataAnimation.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">DataAnimation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\development\projects\vtkAnaimatePoints\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DataAnimation.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">DataAnimation</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:/development/VTK5.10.1/build;C:/development/VTK5.10.1/build/Common;C:/development/VTK5.10.1/build/Utilities;C:/development/VTK5.10.1/build/VolumeRendering;C:/development/VTK5.10.1/build/Rendering;C:/development/VTK5.10.1/build/Charts;C:/development/VTK5.10.1/build/Chemistry;C:/development/VTK5.10.1/build/Utilities/vtkalglib;C:/development/VTK5.10.1/Infovis;C:/development/VTK5.10.1/Geovis;C:/development/VTK5.10.1/Views;C:/development/VTK5.10.1/VolumeRendering;C:/development/VTK5.10.1/Hybrid;C:/development/VTK5.10.1/Widgets;C:/development/VTK5.10.1/Rendering;C:/development/VTK5.10.1/Charts;C:/development/VTK5.10.1/Chemistry;C:/development/VTK5.10.1/Rendering/Testing/Cxx;C:/development/VTK5.10.1/IO;C:/development/VTK5.10.1/Imaging;C:/development/VTK5.10.1/Graphics;C:/development/VTK5.10.1/GenericFiltering;C:/development/VTK5.10.1/Filtering;C:/development/VTK5.10.1/Common;C:/development/VTK5.10.1/Utilities;C:/development/VTK5.10.1/Common/Testing/Cxx;C:/development/VTK5.10.1/build/Utilities/vtknetcdf;C:/development/VTK5.10.1/Utilities/vtknetcdf;C:/development/VTK5.10.1/Utilities/vtknetcdf/include;C:/development/VTK5.10.1/build/Utilities/vtklibproj4;C:/development/VTK5.10.1/Utilities/vtklibproj4;C:/development/VTK5.10.1/build/Utilities/DICOMParser;C:/development/VTK5.10.1/Utilities/DICOMParser;C:/development/VTK5.10.1/build/Utilities/vtkfreetype/include;C:/development/VTK5.10.1/Utilities/vtkfreetype/include;C:/development/VTK5.10.1/build/Utilities/LSDyna;C:/development/VTK5.10.1/Utilities/LSDyna;C:/development/VTK5.10.1/build/Utilities/MaterialLibrary;C:/development/VTK5.10.1/Utilities/MaterialLibrary;C:/development/VTK5.10.1/build/Utilities/vtkmetaio;C:/development/VTK5.10.1/Utilities/vtkmetaio;C:/development/VTK5.10.1/build/Utilities/verdict;C:/development/VTK5.10.1/Utilities/verdict;C:/development/VTK5.10.1/build/Utilities/vtkhdf5;C:/development/VTK5.10.1/Utilities/vtkhdf5;C:/development/VTK5.10.1/build/Utilities/vtkhdf5/src;C:/development/VTK5.10.1/Utilities/vtkhdf5/src;C:/development/VTK5.10.1/build/Utilities/vtkhdf5/hl/src;C:/development/VTK5.10.1/Utilities/vtkhdf5/hl/src;C:/development/VTK5.10.1/Utilities/utf8/source;C:/development/VTK5.10.1/Utilities/vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/development/VTK5.10.1/build;C:/development/VTK5.10.1/build/Common;C:/development/VTK5.10.1/build/Utilities;C:/development/VTK5.10.1/build/VolumeRendering;C:/development/VTK5.10.1/build/Rendering;C:/development/VTK5.10.1/build/Charts;C:/development/VTK5.10.1/build/Chemistry;C:/development/VTK5.10.1/build/Utilities/vtkalglib;C:/development/VTK5.10.1/Infovis;C:/development/VTK5.10.1/Geovis;C:/development/VTK5.10.1/Views;C:/development/VTK5.10.1/VolumeRendering;C:/development/VTK5.10.1/Hybrid;C:/development/VTK5.10.1/Widgets;C:/development/VTK5.10.1/Rendering;C:/development/VTK5.10.1/Charts;C:/development/VTK5.10.1/Chemistry;C:/development/VTK5.10.1/Rendering/Testing/Cxx;C:/development/VTK5.10.1/IO;C:/development/VTK5.10.1/Imaging;C:/development/VTK5.10.1/Graphics;C:/development/VTK5.10.1/GenericFiltering;C:/development/VTK5.10.1/Filtering;C:/development/VTK5.10.1/Common;C:/development/VTK5.10.1/Utilities;C:/development/VTK5.10.1/Common/Testing/Cxx;C:/development/VTK5.10.1/build/Utilities/vtknetcdf;C:/development/VTK5.10.1/Utilities/vtknetcdf;C:/development/VTK5.10.1/Utilities/vtknetcdf/include;C:/development/VTK5.10.1/build/Utilities/vtklibproj4;C:/development/VTK5.10.1/Utilities/vtklibproj4;C:/development/VTK5.10.1/build/Utilities/DICOMParser;C:/development/VTK5.10.1/Utilities/DICOMParser;C:/development/VTK5.10.1/build/Utilities/vtkfreetype/include;C:/development/VTK5.10.1/Utilities/vtkfreetype/include;C:/development/VTK5.10.1/build/Utilities/LSDyna;C:/development/VTK5.10.1/Utilities/LSDyna;C:/development/VTK5.10.1/build/Utilities/MaterialLibrary;C:/development/VTK5.10.1/Utilities/MaterialLibrary;C:/development/VTK5.10.1/build/Utilities/vtkmetaio;C:/development/VTK5.10.1/Utilities/vtkmetaio;C:/development/VTK5.10.1/build/Utilities/verdict;C:/development/VTK5.10.1/Utilities/verdict;C:/development/VTK5.10.1/build/Utilities/vtkhdf5;C:/development/VTK5.10.1/Utilities/vtkhdf5;C:/development/VTK5.10.1/build/Utilities/vtkhdf5/src;C:/development/VTK5.10.1/Utilities/vtkhdf5/src;C:/development/VTK5.10.1/build/Utilities/vtkhdf5/hl/src;C:/development/VTK5.10.1/Utilities/vtkhdf5/hl/src;C:/development/VTK5.10.1/Utilities/utf8/source;C:/development/VTK5.10.1/Utilities/vtkalglib;C:\Development\vrpn_07_30\vrpn;C:\Development\vrpn_07_30\vrpn\quat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -110,15 +111,16 @@
     </Midl>
     <Link>
       <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkHybrid.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkRendering.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkGraphics.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkverdict.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkImaging.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkIO.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkFiltering.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkCommon.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkDICOMParser.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkNetCDF_cxx.lib;C:\development\VTK5.10.1\build\bin\Debug\LSDyna.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkmetaio.lib;comctl32.lib;C:\development\VTK5.10.1\build\bin\Debug\vtksqlite.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkpng.lib;C:\development\VTK5.10.1\build\bin\Debug\vtktiff.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkjpeg.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkexpat.lib;C:\development\VTK5.10.1\build\bin\Debug\vtksys.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkexoIIc.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkNetCDF.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkhdf5_hl.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkhdf5.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkzlib.lib;wsock32.lib;ws2_32.lib;vfw32.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkftgl.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkfreetype.lib;opengl32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkHybrid.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkRendering.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkGraphics.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkverdict.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkImaging.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkIO.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkFiltering.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkCommon.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkDICOMParser.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkNetCDF_cxx.lib;C:\development\VTK5.10.1\build\bin\Debug\LSDyna.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkmetaio.lib;comctl32.lib;C:\development\VTK5.10.1\build\bin\Debug\vtksqlite.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkpng.lib;C:\development\VTK5.10.1\build\bin\Debug\vtktiff.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkjpeg.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkexpat.lib;C:\development\VTK5.10.1\build\bin\Debug\vtksys.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkexoIIc.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkNetCDF.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkhdf5_hl.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkhdf5.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkzlib.lib;wsock32.lib;ws2_32.lib;vfw32.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkftgl.lib;C:\development\VTK5.10.1\build\bin\Debug\vtkfreetype.lib;opengl32.lib;vrpn.lib;quat.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Development\vrpn_07_30\vrpn\build\debug; C:\Development\vrpn_07_30\vrpn\build\quat\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImportLibrary>C:/development/projects/vtkAnaimatePoints/build/Debug/DataAnimation.lib</ImportLibrary>
       <LinkIncremental>true</LinkIncremental>
       <ProgramDataBaseFile>C:/development/projects/vtkAnaimatePoints/build/Debug/DataAnimation.pdb</ProgramDataBaseFile>
       <StackReserveSize>10000000</StackReserveSize>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -127,7 +129,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <AdditionalOptions> /Zm1000 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>C:/development/VTK5.10.1/build;C:/development/VTK5.10.1/build/Common;C:/development/VTK5.10.1/build/Utilities;C:/development/VTK5.10.1/build/VolumeRendering;C:/development/VTK5.10.1/build/Rendering;C:/development/VTK5.10.1/build/Charts;C:/development/VTK5.10.1/build/Chemistry;C:/development/VTK5.10.1/build/Utilities/vtkalglib;C:/development/VTK5.10.1/Infovis;C:/development/VTK5.10.1/Geovis;C:/development/VTK5.10.1/Views;C:/development/VTK5.10.1/VolumeRendering;C:/development/VTK5.10.1/Hybrid;C:/development/VTK5.10.1/Widgets;C:/development/VTK5.10.1/Rendering;C:/development/VTK5.10.1/Charts;C:/development/VTK5.10.1/Chemistry;C:/development/VTK5.10.1/Rendering/Testing/Cxx;C:/development/VTK5.10.1/IO;C:/development/VTK5.10.1/Imaging;C:/development/VTK5.10.1/Graphics;C:/development/VTK5.10.1/GenericFiltering;C:/development/VTK5.10.1/Filtering;C:/development/VTK5.10.1/Common;C:/development/VTK5.10.1/Utilities;C:/development/VTK5.10.1/Common/Testing/Cxx;C:/development/VTK5.10.1/build/Utilities/vtknetcdf;C:/development/VTK5.10.1/Utilities/vtknetcdf;C:/development/VTK5.10.1/Utilities/vtknetcdf/include;C:/development/VTK5.10.1/build/Utilities/vtklibproj4;C:/development/VTK5.10.1/Utilities/vtklibproj4;C:/development/VTK5.10.1/build/Utilities/DICOMParser;C:/development/VTK5.10.1/Utilities/DICOMParser;C:/development/VTK5.10.1/build/Utilities/vtkfreetype/include;C:/development/VTK5.10.1/Utilities/vtkfreetype/include;C:/development/VTK5.10.1/build/Utilities/LSDyna;C:/development/VTK5.10.1/Utilities/LSDyna;C:/development/VTK5.10.1/build/Utilities/MaterialLibrary;C:/development/VTK5.10.1/Utilities/MaterialLibrary;C:/development/VTK5.10.1/build/Utilities/vtkmetaio;C:/development/VTK5.10.1/Utilities/vtkmetaio;C:/development/VTK5.10.1/build/Utilities/verdict;C:/development/VTK5.10.1/Utilities/verdict;C:/development/VTK5.10.1/build/Utilities/vtkhdf5;C:/development/VTK5.10.1/Utilities/vtkhdf5;C:/development/VTK5.10.1/build/Utilities/vtkhdf5/src;C:/development/VTK5.10.1/Utilities/vtkhdf5/src;C:/development/VTK5.10.1/build/Utilities/vtkhdf5/hl/src;C:/development/VTK5.10.1/Utilities/vtkhdf5/hl/src;C:/development/VTK5.10.1/Utilities/utf8/source;C:/development/VTK5.10.1/Utilities/vtkalglib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:/development/VTK5.10.1/build;C:/development/VTK5.10.1/build/Common;C:/development/VTK5.10.1/build/Utilities;C:/development/VTK5.10.1/build/VolumeRendering;C:/development/VTK5.10.1/build/Rendering;C:/development/VTK5.10.1/build/Charts;C:/development/VTK5.10.1/build/Chemistry;C:/development/VTK5.10.1/build/Utilities/vtkalglib;C:/development/VTK5.10.1/Infovis;C:/development/VTK5.10.1/Geovis;C:/development/VTK5.10.1/Views;C:/development/VTK5.10.1/VolumeRendering;C:/development/VTK5.10.1/Hybrid;C:/development/VTK5.10.1/Widgets;C:/development/VTK5.10.1/Rendering;C:/development/VTK5.10.1/Charts;C:/development/VTK5.10.1/Chemistry;C:/development/VTK5.10.1/Rendering/Testing/Cxx;C:/development/VTK5.10.1/IO;C:/development/VTK5.10.1/Imaging;C:/development/VTK5.10.1/Graphics;C:/development/VTK5.10.1/GenericFiltering;C:/development/VTK5.10.1/Filtering;C:/development/VTK5.10.1/Common;C:/development/VTK5.10.1/Utilities;C:/development/VTK5.10.1/Common/Testing/Cxx;C:/development/VTK5.10.1/build/Utilities/vtknetcdf;C:/development/VTK5.10.1/Utilities/vtknetcdf;C:/development/VTK5.10.1/Utilities/vtknetcdf/include;C:/development/VTK5.10.1/build/Utilities/vtklibproj4;C:/development/VTK5.10.1/Utilities/vtklibproj4;C:/development/VTK5.10.1/build/Utilities/DICOMParser;C:/development/VTK5.10.1/Utilities/DICOMParser;C:/development/VTK5.10.1/build/Utilities/vtkfreetype/include;C:/development/VTK5.10.1/Utilities/vtkfreetype/include;C:/development/VTK5.10.1/build/Utilities/LSDyna;C:/development/VTK5.10.1/Utilities/LSDyna;C:/development/VTK5.10.1/build/Utilities/MaterialLibrary;C:/development/VTK5.10.1/Utilities/MaterialLibrary;C:/development/VTK5.10.1/build/Utilities/vtkmetaio;C:/development/VTK5.10.1/Utilities/vtkmetaio;C:/development/VTK5.10.1/build/Utilities/verdict;C:/development/VTK5.10.1/Utilities/verdict;C:/development/VTK5.10.1/build/Utilities/vtkhdf5;C:/development/VTK5.10.1/Utilities/vtkhdf5;C:/development/VTK5.10.1/build/Utilities/vtkhdf5/src;C:/development/VTK5.10.1/Utilities/vtkhdf5/src;C:/development/VTK5.10.1/build/Utilities/vtkhdf5/hl/src;C:/development/VTK5.10.1/Utilities/vtkhdf5/hl/src;C:/development/VTK5.10.1/Utilities/utf8/source;C:/development/VTK5.10.1/Utilities/vtkalglib;C:\Development\vrpn_07_30\vrpn\;C:\Development\vrpn_07_30\vrpn\quat;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -135,7 +137,8 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>Release</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -155,14 +158,15 @@
     </Midl>
     <Link>
       <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\development\VTK5.10.1\build\bin\Release\vtkHybrid.lib;C:\development\VTK5.10.1\build\bin\Release\vtkRendering.lib;C:\development\VTK5.10.1\build\bin\Release\vtkGraphics.lib;C:\development\VTK5.10.1\build\bin\Release\vtkverdict.lib;C:\development\VTK5.10.1\build\bin\Release\vtkImaging.lib;C:\development\VTK5.10.1\build\bin\Release\vtkIO.lib;C:\development\VTK5.10.1\build\bin\Release\vtkFiltering.lib;C:\development\VTK5.10.1\build\bin\Release\vtkCommon.lib;C:\development\VTK5.10.1\build\bin\Release\vtkDICOMParser.lib;C:\development\VTK5.10.1\build\bin\Release\vtkNetCDF_cxx.lib;C:\development\VTK5.10.1\build\bin\Release\LSDyna.lib;C:\development\VTK5.10.1\build\bin\Release\vtkmetaio.lib;comctl32.lib;C:\development\VTK5.10.1\build\bin\Release\vtksqlite.lib;C:\development\VTK5.10.1\build\bin\Release\vtkpng.lib;C:\development\VTK5.10.1\build\bin\Release\vtktiff.lib;C:\development\VTK5.10.1\build\bin\Release\vtkjpeg.lib;C:\development\VTK5.10.1\build\bin\Release\vtkexpat.lib;C:\development\VTK5.10.1\build\bin\Release\vtksys.lib;C:\development\VTK5.10.1\build\bin\Release\vtkexoIIc.lib;C:\development\VTK5.10.1\build\bin\Release\vtkNetCDF.lib;C:\development\VTK5.10.1\build\bin\Release\vtkhdf5_hl.lib;C:\development\VTK5.10.1\build\bin\Release\vtkhdf5.lib;C:\development\VTK5.10.1\build\bin\Release\vtkzlib.lib;wsock32.lib;ws2_32.lib;vfw32.lib;C:\development\VTK5.10.1\build\bin\Release\vtkftgl.lib;C:\development\VTK5.10.1\build\bin\Release\vtkfreetype.lib;opengl32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\development\VTK5.10.1\build\bin\Release\vtkHybrid.lib;C:\development\VTK5.10.1\build\bin\Release\vtkRendering.lib;C:\development\VTK5.10.1\build\bin\Release\vtkGraphics.lib;C:\development\VTK5.10.1\build\bin\Release\vtkverdict.lib;C:\development\VTK5.10.1\build\bin\Release\vtkImaging.lib;C:\development\VTK5.10.1\build\bin\Release\vtkIO.lib;C:\development\VTK5.10.1\build\bin\Release\vtkFiltering.lib;C:\development\VTK5.10.1\build\bin\Release\vtkCommon.lib;C:\development\VTK5.10.1\build\bin\Release\vtkDICOMParser.lib;C:\development\VTK5.10.1\build\bin\Release\vtkNetCDF_cxx.lib;C:\development\VTK5.10.1\build\bin\Release\LSDyna.lib;C:\development\VTK5.10.1\build\bin\Release\vtkmetaio.lib;comctl32.lib;C:\development\VTK5.10.1\build\bin\Release\vtksqlite.lib;C:\development\VTK5.10.1\build\bin\Release\vtkpng.lib;C:\development\VTK5.10.1\build\bin\Release\vtktiff.lib;C:\development\VTK5.10.1\build\bin\Release\vtkjpeg.lib;C:\development\VTK5.10.1\build\bin\Release\vtkexpat.lib;C:\development\VTK5.10.1\build\bin\Release\vtksys.lib;C:\development\VTK5.10.1\build\bin\Release\vtkexoIIc.lib;C:\development\VTK5.10.1\build\bin\Release\vtkNetCDF.lib;C:\development\VTK5.10.1\build\bin\Release\vtkhdf5_hl.lib;C:\development\VTK5.10.1\build\bin\Release\vtkhdf5.lib;C:\development\VTK5.10.1\build\bin\Release\vtkzlib.lib;wsock32.lib;ws2_32.lib;vfw32.lib;C:\development\VTK5.10.1\build\bin\Release\vtkftgl.lib;C:\development\VTK5.10.1\build\bin\Release\vtkfreetype.lib;opengl32.lib;vrpn.lib;quat.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Development\vrpn_07_30\vrpn\build\release; C:\Development\vrpn_07_30\vrpn\build\quat\release; %(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <ImportLibrary>C:/development/projects/vtkAnaimatePoints/build/Release/DataAnimation.lib</ImportLibrary>
       <ProgramDataBaseFile>C:/development/projects/vtkAnaimatePoints/build/Release/DataAnimation.pdb</ProgramDataBaseFile>
       <StackReserveSize>10000000</StackReserveSize>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -179,7 +183,8 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>MinSizeRel</AssemblerListingLocation>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -206,7 +211,8 @@
       <ProgramDataBaseFile>C:/development/projects/vtkAnaimatePoints/build/MinSizeRel/DataAnimation.pdb</ProgramDataBaseFile>
       <StackReserveSize>10000000</StackReserveSize>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -251,7 +257,8 @@
       <ProgramDataBaseFile>C:/development/projects/vtkAnaimatePoints/build/RelWithDebInfo/DataAnimation.pdb</ProgramDataBaseFile>
       <StackReserveSize>10000000</StackReserveSize>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -310,11 +317,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\DataAnimation.cxx"  />
+    <ClCompile Include="..\DataAnimation.cxx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/development/projects/vtkAnaimatePoints/build/ZERO_CHECK.vcxproj">
-      <Project>972B88FD-8394-4C51-8711-BC0FF4097C4E</Project>
+      <Project>BFB0E150-FD67-4078-9474-7ACD6C87E0D3</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -44,6 +44,8 @@ unsigned int counter2 = 0;
 
 vrpn_Tracker_Remote *remote;
 
+unsigned char red[3] = {255, 0, 0};
+vtkSmartPointer<vtkUnsignedCharArray> colors;
 
 void AdjustPoints2(void* arguments)
 {
@@ -94,6 +96,8 @@ void AdjustPoints2(void* arguments)
 
 	programmableFilter->GetPolyDataOutput()->CopyStructure(programmableFilter->GetPolyDataInput());
 	programmableFilter->GetPolyDataOutput()->SetPoints(newPts);	
+
+	programmableFilter->GetPolyDataOutput()->GetPointData()->SetScalars(colors);
 }
 
 int main(int, char *[])
@@ -134,8 +138,8 @@ int main(int, char *[])
 	polydata->ShallowCopy(vertexFilter->GetOutput());
 
 	// Setup colors
-	unsigned char red[3] = {255, 0, 0};
-	vtkSmartPointer<vtkUnsignedCharArray> colors = vtkSmartPointer<vtkUnsignedCharArray>::New();
+	
+	colors = vtkSmartPointer<vtkUnsignedCharArray>::New();
 
 	colors->SetNumberOfComponents(3);
 	colors->SetName ("Colors");
@@ -143,9 +147,8 @@ int main(int, char *[])
 	for(int i = 0; i < iSKELETON_NUM; i++)
 	{
 		colors->InsertNextTupleValue(red);
-	}
-	 
-	polydata->GetPointData()->SetScalars(colors);	
+	} 
+	
 	
 	vtkSmartPointer<vtkProgrammableFilter> programmableFilter = vtkSmartPointer<vtkProgrammableFilter>::New();
 
